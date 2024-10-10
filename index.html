@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Playlist matinale</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="arrierePlan">
+
+        <div class="navBar">
+            <img src="./MEDIA/logo.png" class= "logo" alt="logo">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">PlayList</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">A Propos</a></li>
+            </ul>
+        </div>
+
+        <div class="contenus">
+            <div class="col-gauche">
+                <h1>Ma<br>Playlist<br>Matinale</h1>
+            </div>
+
+            <div class="col-droite">
+                <p>Jouer La Musique</p>
+                <img src="./MEDIA/play.png" id="btnplay"alt="play">
+            </div>
+        </div>
+
+    </div>
+
+    <audio id="maMusic">
+       
+        <source src="./MEDIA/Music.mp3" type="audio/mp3">
+
+    </audio>
+    
+    <script>
+        var maMusic = document.getElementById("maMusic");
+        var btnplay = document.getElementById("btnplay");
+
+        btnplay.onclick = function(){
+            if (maMusic.paused) {
+                maMusic.play();
+                btnplay.src = "./Media/pause.png"
+            } else {
+                maMusic.pause();
+                btnplay.src = "Media/play.png"
+            }
+        }
+    </script>
+    
+</body>
+
+</html>
