@@ -1,5 +1,5 @@
-# Playlist
+# Moteur-de-recherche
 
-👩‍💻 Code HTML et CSS qui permet de lancer une playlist.
+👩‍💻 Code HTML et CSS qui permet de d'utiliser un moteur de recherche.
 
-🕰️ Fait en 1 jour, pour tester la mise en place de média.
+🕰️ Fait en 1 jour.
