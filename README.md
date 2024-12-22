@@ -7,14 +7,14 @@ Chaque projet est accessible via une branche spécifique.
 
 1. **Moteur de recherche**
    - Branche : `moteur-de-recherche`
-   - ↷ [Accéder au code](https://github.com/DevJoanaBureth/Projets-HTML/tree/moteur-de-recherche)
+   - ↷ [Accéder au code](https://github.com/DevJoanaBureth/moteur-de-recherche)
 
 2. **Playlist**
    - Branche : `playlist`
-   - ↷ [Accéder au code](https://github.com/DevJoanaBureth/Projets-HTML/tree/playlist)
+   - ↷ [Accéder au code](https://github.com/DevJoanaBureth/playlist)
 
 3. **Restaurant**
    - Branche : `restaurant`
-   - ↷ [Accéder au code](https://github.com/DevJoanaBureth/Projets-HTML/tree/restaurant)
+   - ↷ [Accéder au code](https://github.com/DevJoanaBureth/restaurant)
 
 
